@@ -1,0 +1,70 @@
+"""
+#
+# Part: Python Whilen Loop
+#
+"""
+
+i = 1
+while i < 5:
+    print ("i = ", i)
+    i+=1 # i = i =1
+    
+    i = 1
+while 1 < 5:
+    print("i = ", i)
+    if i == 3:
+        break
+    i+=1 # i = i + 1
+
+# i = 1
+# while 1 < 5:
+# print("i = ", i)
+# if i == 3:
+# continue
+#i+=1 # i = i + 1
+
+i = 1
+while i < 5:
+    print ("i = ", i)
+    i+=1 # i = i + 1
+else:
+    print("Game Over!")
+
+"""
+#
+Part: Python For Loop
+"""
+fruits = ["apple", "banana", "coconut"]
+for fruit in fruit:
+    print("Fruit: ", fruit)
+
+for fruit in fruits:
+    print("Fruit: ", Fruit)
+    if fruit == "banana" :
+        break
+
+for fruit in fruits:
+    print("Fruit: ", Fruit)
+    if fruit == "banana" :
+        break
+    print("Fruit: ", fruit)
+
+for fruit in fruits:
+    print("Fruit: ", Fruit)
+    if fruit == "banana" :
+        continue
+    print("Fruit: ", fruit)
+
+for x in rangr (len(fruit)):
+    print("Number: ", x)
+
+for x in range(5):
+    print("Number: ", x)
+else:
+    print("Game Over!")
+
+adj = ["red", "blue", "green"]
+fruits = ["apple", "banana", "coconut"]
+for adj in adj:
+    for fruit in fruits:
+        print("Fruit: "+ adj +" " + fruit)
